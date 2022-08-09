@@ -13,6 +13,9 @@ body{
     width: 70%;
     margin: auto;
 }
+@media screen and (max-width: 780px) {
+    .contener{width: 100%;}
+  }
 .dname{
 background-color: rgba(0, 0, 0, 0.781);
 color: white;
