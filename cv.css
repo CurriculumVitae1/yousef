@@ -30,6 +30,7 @@ font-size: 35px;
 .Phone{
  font-size:20px ;
  color: white;
+ text-decoration: none;
 }
 .Email{
  font-size:17px ; color: #5B9BD5; text-decoration: none;
