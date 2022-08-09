@@ -1,24 +1,19 @@
 body{
     padding: 0px;
-    margin: 0px;
+    margin: -2px;
     background-color: rgb(221, 221, 221);
     text-align: center;
-   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .contener{
-    border: 1px solid #BFBFBF;
     background-color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
     width: 70%;
     margin: auto;
 }
-@media screen and (max-width: 780px) {
-    .contener{width: 100%;}
-  }
-.dname{
+
+.divName{
 background-color: rgba(0, 0, 0, 0.781);
-color: white;
 margin: auto;
 padding-top: 50px;
 width: 100%;
@@ -26,11 +21,18 @@ height: 150px;
 text-align: center;
 font-size: 30px;
 font-weight: bold;
-
-
-
 }
-.dcv{
+.Name{
+color: #C45911;
+}
+.Phone{
+ font-size:20px ;
+ color: white;
+}
+.Email{
+ font-size:17px ; color: #5B9BD5; text-decoration: none;
+}
+.divCv{
     background-color: rgba(255, 255, 255, 0.877);
     color: white;
     margin: auto;
@@ -42,3 +44,8 @@ font-weight: bold;
     font-weight: bold;
     
     }
+
+    @media screen and (max-width: 780px) {
+        .contener{width: 100%;}
+        .divCv{width: 100%;}
+      }
