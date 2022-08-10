@@ -13,7 +13,7 @@ body{
 }
 
 .divName{
-background-color: rgba(0, 0, 0, 0.781);
+background-color: #333F50;
 margin: auto;
 padding-top: 50px;
 width: 100%;
@@ -44,41 +44,67 @@ font-size: 35px;
     }
 .divCv{
     background-color: rgba(255, 255, 255, 0.877);
-    color: black;
     margin: auto;
     padding-top: 15px;
     width: 100%;
-    height: 450px;
     text-align: center;
-    font-size: 30px;
     font-weight: bold;
+    padding-bottom: 20px;
     
     }
-
-    @media screen and (max-width: 768px) {
-        .contener{width: 100%;}
-        .divCv{width: 100%;}
-        .divImage{order: 1;}
-        .divPersonalInformation{order: 2;}
-      }
-      .img{
-        border: 4px solid rgb(7, 2, 46);
+    .img{
+        border: 4px solid #333F50;
         border-radius: 50%;
         width: 150px;
         height: 150px;
         text-align: center;
+        margin-bottom: 15px;
       }
       .header{
         color: #C45911;
         font-weight: bold;
-      }
-      ul,li,pre{
-        font-size: 15px;
         text-align: start;
-        padding: 0px;
-        margin: 0px;
-      }
-      ul{
-        margin-left: 110px;
+        margin-left: 70px;
+    
       }
      
+      .mtable, td, th {
+        border: 0px solid;
+      }
+      
+      .mtable ,.divExperience,.divEducation{
+        text-align: start;
+        margin-left: 70px;
+      }
+      .hr1{
+       margin: auto;
+        height:1px;
+        width:90%; 
+        background-color:#333F50;
+        opacity: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    
+      .date{
+        font-size: 12px;
+        color: #767171;
+        font-weight: bold;
+        text-align: start;
+        margin: auto;
+      }
+      .Font{
+        font-size: 15px;
+        color: #333F50;
+        font-weight:650 ;
+      }
+  .h2{
+    border-left:1px #333F50 solid ;
+  }
+      @media screen and (max-width: 768px) {
+        .contener{width: 100%;}
+        .divCv{width: 100%;}
+        .divImage{order: 1;}
+        .divPersonalInformation{order: 2;}
+        .mtable ,.divExperience, .header{margin-left: 30px; }
+      }
