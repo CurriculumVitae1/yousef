@@ -63,16 +63,13 @@ font-size: 35px;
       .header{
         color: #C45911;
         font-weight: bold;
-        text-align: start;
-        margin-left: 70px;
-    
       }
      
       .mtable, td, th {
         border: 0px solid;
       }
       
-      .mtable ,.divExperience,.divEducation{
+      .mtable ,.divExperience,.divEducation,.header,.Languages,.divCourses{
         text-align: start;
         margin-left: 70px;
       }
@@ -101,10 +98,23 @@ font-size: 35px;
   .h2{
     border-left:1px #333F50 solid ;
   }
+  .aa{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: #5B9BD5;
+    display: inline;
+    position: absolute;
+    margin-top: -20px;
+    font-weight: 500;
+    opacity:100% ;
+    
+    
+  }
       @media screen and (max-width: 768px) {
         .contener{width: 100%;}
         .divCv{width: 100%;}
         .divImage{order: 1;}
         .divPersonalInformation{order: 2;}
-        .mtable ,.divExperience, .header{margin-left: 30px; }
-      }
+        .mtable ,.divExperience, .header,.divEducation,.Languages,.divCourses{margin-left: 30px; }
+      }  
