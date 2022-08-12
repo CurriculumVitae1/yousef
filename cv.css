@@ -145,3 +145,14 @@ font-size: 35px;
         .mtable ,.divExperience, .header,.divEducation,.Languages,.divCourses,.divTechnical,.divPersonal,.divProjects{margin-left: 30px; }
         .hr1,.hr2{ border-left:none;}  
       }  
+     /*  .con{
+        width: 40px;
+        top: 230px;
+        right: 0;
+        margin-right: 10px;
+        position: fixed;
+        background-color: #333f503f;
+        height: 200px;
+        border-radius: 20px;
+
+      } */
